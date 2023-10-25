@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(105, 247, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    height: 85%;
+    width: 80%;
+    background-color:white;
+    border-radius: 13px;
+    overflow: hidden;
+}
+#ptop{
+    height: 15%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22%;
+    
+}
+.elem{
+    display: flex;
+    color: #fff;
+    -webkit-text-stroke: 0.3px black;
+}
+.box{
+    width: 37px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-left: 4px;
+    color: green;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 7px;
+    font-weight: 900;
+}
+#pbottom{
+    margin: 3px;
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(1, 97, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.bubble:hover{
+    background-color: rgb(25, 169, 25);
+}
+#pbottom h1{
+    color: green;
+    -webkit-text-stroke: 0.1px #000;
+    font-size: 90px;
+}
